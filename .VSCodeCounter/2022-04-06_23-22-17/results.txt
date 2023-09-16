@@ -1,0 +1,94 @@
+Date : 2022-04-06 23:22:17
+Directory : /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app
+Total : 39 files,  5251 codes, 431 comments, 504 blanks, all 6186 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Dart       |         12 |      4,631 |        304 |        424 |      5,359 |
+| JSON       |          7 |        297 |         10 |          8 |        315 |
+| XML        |          9 |        125 |         51 |         11 |        187 |
+| Groovy     |          3 |         81 |          3 |         20 |        104 |
+| HTML       |          1 |         48 |         18 |         11 |         77 |
+| YAML       |          1 |         35 |         44 |         16 |         95 |
+| Markdown   |          2 |         13 |          0 |          9 |         22 |
+| Swift      |          1 |         12 |          0 |          2 |         14 |
+| Properties |          2 |          8 |          1 |          2 |         11 |
+| C++        |          1 |          1 |          0 |          1 |          2 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                          | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                             |         39 |      5,251 |        431 |        504 |      6,186 |
+| android                                                                                                                       |         12 |        153 |         53 |         31 |        237 |
+| android/app                                                                                                                   |          8 |        110 |         52 |         20 |        182 |
+| android/app/src                                                                                                               |          7 |         64 |         49 |          9 |        122 |
+| android/app/src/debug                                                                                                         |          1 |          4 |          3 |          1 |          8 |
+| android/app/src/main                                                                                                          |          5 |         56 |         43 |          7 |        106 |
+| android/app/src/main/res                                                                                                      |          4 |         26 |         32 |          6 |         64 |
+| android/app/src/main/res/drawable                                                                                             |          1 |          4 |          7 |          2 |         13 |
+| android/app/src/main/res/drawable-v21                                                                                         |          1 |          4 |          7 |          2 |         13 |
+| android/app/src/main/res/values                                                                                               |          1 |          9 |          9 |          1 |         19 |
+| android/app/src/main/res/values-night                                                                                         |          1 |          9 |          9 |          1 |         19 |
+| android/app/src/profile                                                                                                       |          1 |          4 |          3 |          1 |          8 |
+| android/gradle                                                                                                                |          1 |          5 |          1 |          1 |          7 |
+| android/gradle/wrapper                                                                                                        |          1 |          5 |          1 |          1 |          7 |
+| ios                                                                                                                           |          7 |        222 |          2 |          9 |        233 |
+| ios/Runner                                                                                                                    |          7 |        222 |          2 |          9 |        233 |
+| ios/Runner/Assets.xcassets                                                                                                    |          3 |        148 |          0 |          4 |        152 |
+| ios/Runner/Assets.xcassets/AppIcon.appiconset                                                                                 |          1 |        122 |          0 |          1 |        123 |
+| ios/Runner/Assets.xcassets/LaunchImage.imageset                                                                               |          2 |         26 |          0 |          3 |         29 |
+| ios/Runner/Base.lproj                                                                                                         |          2 |         61 |          2 |          2 |         65 |
+| lib                                                                                                                           |         12 |      4,631 |        304 |        424 |      5,359 |
+| lib/models                                                                                                                    |          4 |        526 |         16 |         85 |        627 |
+| web                                                                                                                           |          2 |         71 |         18 |         12 |        101 |
++-------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                      | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/README.md                                                     | Markdown   |         10 |          0 |          7 |         17 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/android/app/build.gradle                                      | Groovy     |         46 |          3 |         11 |         60 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/android/app/src/debug/AndroidManifest.xml                     | XML        |          4 |          3 |          1 |          8 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/android/app/src/main/AndroidManifest.xml                      | XML        |         30 |         11 |          1 |         42 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/android/app/src/main/res/drawable-v21/launch_background.xml   | XML        |          4 |          7 |          2 |         13 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/android/app/src/main/res/drawable/launch_background.xml       | XML        |          4 |          7 |          2 |         13 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/android/app/src/main/res/values-night/styles.xml              | XML        |          9 |          9 |          1 |         19 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/android/app/src/main/res/values/styles.xml                    | XML        |          9 |          9 |          1 |         19 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/android/app/src/profile/AndroidManifest.xml                   | XML        |          4 |          3 |          1 |          8 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/android/build.gradle                                          | Groovy     |         27 |          0 |          5 |         32 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/android/gradle.properties                                     | Properties |          3 |          0 |          1 |          4 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/android/gradle/wrapper/gradle-wrapper.properties              | Properties |          5 |          1 |          1 |          7 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/android/settings.gradle                                       | Groovy     |          8 |          0 |          4 |         12 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/database.rules.json                                           | JSON       |         90 |          0 |          3 |         93 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/firebase.json                                                 | JSON       |         10 |         10 |          0 |         20 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/ios/Runner/AppDelegate.swift                                  | Swift      |         12 |          0 |          2 |         14 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json   | JSON       |        122 |          0 |          1 |        123 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json | JSON       |         23 |          0 |          1 |         24 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md     | Markdown   |          3 |          0 |          2 |          5 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/ios/Runner/Base.lproj/LaunchScreen.storyboard                 | XML        |         36 |          1 |          1 |         38 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/ios/Runner/Base.lproj/Main.storyboard                         | XML        |         25 |          1 |          1 |         27 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/ios/Runner/Runner-Bridging-Header.h                           | C++        |          1 |          0 |          1 |          2 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/InstallCACertificatePage.dart                             | Dart       |        327 |         52 |         15 |        394 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/LandingPage.dart                                          | Dart       |        245 |          0 |         15 |        260 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/LoadingPage.dart                                          | Dart       |         61 |          0 |          9 |         70 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/MainApp.dart                                              | Dart       |        521 |         24 |        103 |        648 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/QrCodeWidget.dart                                         | Dart       |        194 |          2 |         24 |        220 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/QuestionnairePage.dart                                    | Dart       |        715 |         97 |         39 |        851 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/RootPage.dart                                             | Dart       |        334 |         45 |         28 |        407 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/WifiNetworkListPage.dart                                  | Dart       |      1,708 |         68 |        106 |      1,882 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/models/FixedData.dart                                     | Dart       |         84 |         13 |         14 |        111 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/models/QuestionnaireRelatedClasses.dart                   | Dart       |        362 |          2 |         57 |        421 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/models/SecurityModel.dart                                 | Dart       |         44 |          0 |          6 |         50 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/models/WifiModel.dart                                     | Dart       |         36 |          1 |          8 |         45 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/package-lock.json                                             | JSON       |         24 |          0 |          1 |         25 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/package.json                                                  | JSON       |          5 |          0 |          1 |          6 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/pubspec.yaml                                                  | YAML       |         35 |         44 |         16 |         95 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/web/index.html                                                | HTML       |         48 |         18 |         11 |         77 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/web/manifest.json                                             | JSON       |         23 |          0 |          1 |         24 |
+| Total                                                                                                                         |            |      5,251 |        431 |        504 |      6,186 |
++-------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

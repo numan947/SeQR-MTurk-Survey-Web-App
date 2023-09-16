@@ -1,0 +1,15 @@
+"filename", "language", "JSON", "YAML", "Dart", "HTML", "comment", "blank", "total"
+"/home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/database.rules.json", "JSON", 24, 0, 0, 0, 0, -1, 23
+"/home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/LandingPage.dart", "Dart", 0, 0, 28, 0, 0, 4, 32
+"/home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/MainApp.dart", "Dart", 0, 0, 311, 0, 12, 33, 356
+"/home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/QuestionnairePage.dart", "Dart", 0, 0, 501, 0, 7, 16, 524
+"/home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/RootPage.dart", "Dart", 0, 0, 147, 0, 5, 9, 161
+"/home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/WifiNetworkListPage.dart", "Dart", 0, 0, 418, 0, 17, 10, 445
+"/home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/models/Comments.dart", "Dart", 0, 0, 15, 0, 0, 4, 19
+"/home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/models/FixedData.dart", "Dart", 0, 0, 2, 0, 0, 0, 2
+"/home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/models/QuestionnaireRelatedClasses.dart", "Dart", 0, 0, 28, 0, 0, 4, 32
+"/home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/models/SecurityModel.dart", "Dart", 0, 0, 3, 0, 0, 0, 3
+"/home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/models/WifiModel.dart", "Dart", 0, 0, 2, 0, 0, 0, 2
+"/home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/pubspec.yaml", "YAML", 0, 2, 0, 0, 0, 0, 2
+"/home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/web/index.html", "HTML", 0, 0, 0, 1, 0, 0, 1
+"Total", "-", 24, 2, 1455, 1, 41, 79, 1602

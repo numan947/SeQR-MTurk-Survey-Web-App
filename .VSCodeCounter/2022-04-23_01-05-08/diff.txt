@@ -1,0 +1,43 @@
+Date : 2022-04-23 01:05:08
+Directory : /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app
+Total : 13 files,  1482 codes, 41 comments, 79 blanks, all 1602 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Dart     |         10 |      1,455 |         41 |         80 |      1,576 |
+| JSON     |          1 |         24 |          0 |         -1 |         23 |
+| YAML     |          1 |          2 |          0 |          0 |          2 |
+| HTML     |          1 |          1 |          0 |          0 |          1 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                        | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                           |         13 |      1,482 |         41 |         79 |      1,602 |
+| lib                                                                                                         |         10 |      1,455 |         41 |         80 |      1,576 |
+| lib/models                                                                                                  |          5 |         50 |          0 |          8 |         58 |
+| web                                                                                                         |          1 |          1 |          0 |          0 |          1 |
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                    | language | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/database.rules.json                         | JSON     |         24 |          0 |         -1 |         23 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/LandingPage.dart                        | Dart     |         28 |          0 |          4 |         32 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/MainApp.dart                            | Dart     |        311 |         12 |         33 |        356 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/QuestionnairePage.dart                  | Dart     |        501 |          7 |         16 |        524 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/RootPage.dart                           | Dart     |        147 |          5 |          9 |        161 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/WifiNetworkListPage.dart                | Dart     |        418 |         17 |         10 |        445 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/models/Comments.dart                    | Dart     |         15 |          0 |          4 |         19 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/models/FixedData.dart                   | Dart     |          2 |          0 |          0 |          2 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/models/QuestionnaireRelatedClasses.dart | Dart     |         28 |          0 |          4 |         32 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/models/SecurityModel.dart               | Dart     |          3 |          0 |          0 |          3 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/models/WifiModel.dart                   | Dart     |          2 |          0 |          0 |          2 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/pubspec.yaml                                | YAML     |          2 |          0 |          0 |          2 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/web/index.html                              | HTML     |          1 |          0 |          0 |          1 |
+| Total                                                                                                       |          |      1,482 |         41 |         79 |      1,602 |
++-------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

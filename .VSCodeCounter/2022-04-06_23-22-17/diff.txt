@@ -1,0 +1,55 @@
+Date : 2022-04-06 23:22:17
+Directory : /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app
+Total : 18 files,  -69810 codes, -71 comments, 48 blanks, all -69833 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Dart       |          5 |        577 |          9 |         57 |        643 |
+| JSON       |          6 |         57 |         -1 |          2 |         58 |
+| YAML       |          1 |          5 |          0 |          2 |          7 |
+| CSS        |          1 |         -1 |        -13 |          0 |        -14 |
+| HTML       |          2 |        -10 |        -24 |         -5 |        -39 |
+| JavaScript |          3 |    -70,438 |        -42 |         -8 |    -70,488 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                    | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                       |         18 |    -69,810 |        -71 |         48 |    -69,833 |
+| lib                                                                                                                     |          5 |        577 |          9 |         57 |        643 |
+| lib/models                                                                                                              |          1 |        125 |         -1 |         22 |        146 |
+| public                                                                                                                  |          9 |    -70,494 |        -76 |        -17 |    -70,587 |
+| public/assets                                                                                                           |          4 |         -4 |        -26 |          0 |        -30 |
+| public/assets/packages                                                                                                  |          2 |         -2 |        -26 |          0 |        -28 |
+| public/assets/packages/fluttertoast                                                                                     |          2 |         -2 |        -26 |          0 |        -28 |
+| public/assets/packages/fluttertoast/assets                                                                              |          2 |         -2 |        -26 |          0 |        -28 |
+| web                                                                                                                     |          1 |         19 |         -3 |          3 |         19 |
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/database.rules.json                                     | JSON       |         84 |         -1 |          3 |         86 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/firebase.json                                           | JSON       |         -1 |          0 |          0 |         -1 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/MainApp.dart                                        | Dart       |         22 |          2 |         12 |         36 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/QuestionnairePage.dart                              | Dart       |          0 |          1 |          0 |          1 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/RootPage.dart                                       | Dart       |         89 |          2 |          8 |         99 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/WifiNetworkListPage.dart                            | Dart       |        341 |          5 |         15 |        361 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/lib/models/QuestionnaireRelatedClasses.dart             | Dart       |        125 |         -1 |         22 |        146 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/public/assets/AssetManifest.json                        | JSON       |         -1 |          0 |          0 |         -1 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/public/assets/FontManifest.json                         | JSON       |         -1 |          0 |          0 |         -1 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/public/assets/packages/fluttertoast/assets/toastify.css | CSS        |         -1 |        -13 |          0 |        -14 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/public/assets/packages/fluttertoast/assets/toastify.js  | JavaScript |         -1 |        -13 |          0 |        -14 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/public/flutter_service_worker.js                        | JavaScript |       -160 |        -29 |         -7 |       -196 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/public/index.html                                       | HTML       |        -29 |        -21 |         -8 |        -58 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/public/main.dart.js                                     | JavaScript |    -70,277 |          0 |         -1 |    -70,278 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/public/manifest.json                                    | JSON       |        -23 |          0 |         -1 |        -24 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/public/version.json                                     | JSON       |         -1 |          0 |          0 |         -1 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/pubspec.yaml                                            | YAML       |          5 |          0 |          2 |          7 |
+| /home/numan947/Main/Research/Android-Wifi-QR/wifi_qr_survey_app/web/index.html                                          | HTML       |         19 |         -3 |          3 |         19 |
+| Total                                                                                                                   |            |    -69,810 |        -71 |         48 |    -69,833 |
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

@@ -1,0 +1,194 @@
+{
+  "rules": {
+    "blacklist":{
+      ".read": true,
+      ".write":"auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com')"
+    },
+    "RNG":{
+      ".read":"auth!=null",
+      ".write":"auth!=null"
+    },
+    "prompts":{
+      ".read": "auth != null",
+      ".write":"auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com')"
+    },
+    "questions_changed":{
+      ".read": "auth != null",
+      ".write":"auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com')"
+    }, 
+    "questions":{
+      ".read": "auth != null",
+      ".write":"auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com')"
+    },
+    "question_ids":{
+      ".read": "auth != null",
+      ".write":"auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com')"
+    },
+    "responses":{
+      "old_impl_responses":{
+        ".read":"(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+        "$pushId":{
+          "oldImplBen":{
+           ".read":"(auth != null && root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+           ".write": "(auth!=null && root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId) && !data.exists() && newData.exists() &&((root.child('task_map').child($pushId).child('Task-1').val().contains('old'))||(root.child('responses').child('new_impl_responses').hasChild($pushId))))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))"
+          },
+          "oldImplAtk":{
+            ".read":"(auth != null && root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+            ".write": "(auth!=null && root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId) && !data.exists() && newData.exists() &&((root.child('task_map').child($pushId).child('Task-1').val().contains('old'))||(root.child('responses').child('new_impl_responses').hasChild($pushId))))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))"
+           },
+           "oldImplRel":{
+            ".read":"(auth != null && root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+            ".write": "(auth!=null && root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId) && !data.exists() && newData.exists() &&((root.child('task_map').child($pushId).child('Task-1').val().contains('old'))||(root.child('responses').child('new_impl_responses').hasChild($pushId))))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))"
+           }
+        }
+      },
+      "new_impl_responses":{
+        ".read":"(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+        "$pushId":{
+           "newImplBen":{
+            ".read":"(auth != null && root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+           ".write": "(auth!=null && root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId) && !data.exists() && newData.exists() &&((root.child('task_map').child($pushId).child('Task-1').val().contains('new'))||(root.child('responses').child('old_impl_responses').hasChild($pushId))))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))"
+           },
+           "newImplAtk":{
+            ".read":"(auth != null && root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+           ".write": "(auth!=null && root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId) && !data.exists() && newData.exists() &&((root.child('task_map').child($pushId).child('Task-1').val().contains('new'))||(root.child('responses').child('old_impl_responses').hasChild($pushId))))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))"
+           },
+           "newImplRel":{
+            ".read":"(auth != null && root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+           ".write": "(auth!=null && root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId) && !data.exists() && newData.exists() &&((root.child('task_map').child($pushId).child('Task-1').val().contains('new'))||(root.child('responses').child('old_impl_responses').hasChild($pushId))))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))"
+           }
+        }
+      },
+      "question_responses":{
+        ".read":"(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+        "$pushId":{
+          "oldImplPTQ":{ 
+          ".read":"(auth != null && root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+           ".write": "(auth!=null && root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId) && !data.exists() && newData.exists() &&(root.child('responses').child('old_impl_responses').hasChild($pushId)))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))"
+          },
+          "newImplPTQ":{ 
+          ".read":"(auth != null && root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+           ".write": "(auth!=null && root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId) && !data.exists() && newData.exists() &&((root.child('responses').child('new_impl_responses').hasChild($pushId))))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))"
+          },
+          "demQ":{ 
+            ".read":"(auth != null && root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+             ".write": "(auth!=null && root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId) && !data.exists() && newData.exists() &&((root.child('responses').child('new_impl_responses').hasChild($pushId))&&(root.child('responses').child('old_impl_responses').hasChild($pushId))))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))"
+            }
+        }
+      }
+    },
+
+    "worker_ids":{
+      ".read":"auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com')",
+      ".write":"auth != null && newData.exists()"
+    },
+    
+   "temp_uid_worker_id_map":{
+     "$pushId":{
+      ".read":"auth != null && $pushId == auth.uid",
+      ".write":"auth != null"
+     }
+    },
+   "survey_states":{
+    "survey_state_0":{
+      "$pushId":{
+      ".read":"(auth!=null)||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+      ".write":"auth != null && !data.exists() && newData.exists() && !root.child('blacklist').val().contains($pushId)" 
+      }
+    },
+    "survey_state_1":{
+      "$pushId":{
+      ".read":"(auth!=null)||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+      ".write":"auth != null && !data.exists() && newData.exists() && (root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId))  && root.child('survey_states').child('survey_state_0').hasChild($pushId)" 
+      }
+    },
+    "survey_state_2":{
+      "$pushId":{
+      ".read":"(auth!=null)||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+      ".write":"auth != null && !data.exists() && newData.exists() && (root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId)) && root.child('survey_states').child('survey_state_0').hasChild($pushId) && root.child('survey_states').child('survey_state_1').hasChild($pushId)" 
+      }
+    },
+    "survey_state_3":{
+      "$pushId":{
+      ".read":"(auth!=null)||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+      ".write":"auth != null && !data.exists() && newData.exists() && (root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId))&& root.child('survey_states').child('survey_state_0').hasChild($pushId)&& root.child('survey_states').child('survey_state_1').hasChild($pushId)&& root.child('survey_states').child('survey_state_2').hasChild($pushId)" 
+      }
+    },
+    "survey_state_4":{
+      "$pushId":{
+      ".read":"(auth!=null)||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+      ".write":"auth != null && !data.exists() && newData.exists() && (root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId))&& root.child('survey_states').child('survey_state_0').hasChild($pushId)&& root.child('survey_states').child('survey_state_1').hasChild($pushId)&& root.child('survey_states').child('survey_state_2').hasChild($pushId)&& root.child('survey_states').child('survey_state_3').hasChild($pushId)" 
+      }
+    },
+    "survey_state_5":{
+      "$pushId":{
+      ".read":"(auth!=null)||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+      ".write":"auth != null && !data.exists() && newData.exists() && (root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId))&& root.child('survey_states').child('survey_state_0').hasChild($pushId)&& root.child('survey_states').child('survey_state_1').hasChild($pushId)&& root.child('survey_states').child('survey_state_2').hasChild($pushId) && root.child('survey_states').child('survey_state_3').hasChild($pushId) && root.child('survey_states').child('survey_state_4').hasChild($pushId)" 
+      }
+    },
+    "survey_state_6":{
+      "$pushId":{
+      ".read":"(auth!=null)||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+      ".write":"auth != null && !data.exists() && newData.exists() && (root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId))&& root.child('survey_states').child('survey_state_0').hasChild($pushId)&& root.child('survey_states').child('survey_state_1').hasChild($pushId)&& root.child('survey_states').child('survey_state_2').hasChild($pushId)&& root.child('survey_states').child('survey_state_3').hasChild($pushId) && root.child('survey_states').child('survey_state_4').hasChild($pushId)&& root.child('survey_states').child('survey_state_5').hasChild($pushId)" 
+      }
+    },
+    "survey_state_7":{
+      "$pushId":{
+      ".read":"(auth!=null)||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+      ".write":"auth != null && !data.exists() && newData.exists() && (root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId))&& root.child('survey_states').child('survey_state_0').hasChild($pushId)&& root.child('survey_states').child('survey_state_1').hasChild($pushId)&& root.child('survey_states').child('survey_state_2').hasChild($pushId) && root.child('survey_states').child('survey_state_3').hasChild($pushId) && root.child('survey_states').child('survey_state_4').hasChild($pushId)&& root.child('survey_states').child('survey_state_5').hasChild($pushId)&& root.child('survey_states').child('survey_state_6').hasChild($pushId)" 
+      }
+    },
+    "survey_state_8":{
+      "$pushId":{
+      ".read":"(auth!=null)||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+      ".write":"auth != null && !data.exists() && newData.exists() && (root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId))&& root.child('survey_states').child('survey_state_0').hasChild($pushId)&& root.child('survey_states').child('survey_state_1').hasChild($pushId)&& root.child('survey_states').child('survey_state_2').hasChild($pushId) && root.child('survey_states').child('survey_state_3').hasChild($pushId) && root.child('survey_states').child('survey_state_4').hasChild($pushId)&& root.child('survey_states').child('survey_state_5').hasChild($pushId) && root.child('survey_states').child('survey_state_6').hasChild($pushId) && root.child('survey_states').child('survey_state_7').hasChild($pushId)" 
+      }
+    },
+    "survey_state_9":{
+      "$pushId":{
+      ".read":"(auth!=null)||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+      ".write":"auth != null && !data.exists() && newData.exists() && (root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId))&& root.child('survey_states').child('survey_state_0').hasChild($pushId)&& root.child('survey_states').child('survey_state_1').hasChild($pushId)&& root.child('survey_states').child('survey_state_2').hasChild($pushId) && root.child('survey_states').child('survey_state_3').hasChild($pushId) && root.child('survey_states').child('survey_state_4').hasChild($pushId)&& root.child('survey_states').child('survey_state_5').hasChild($pushId) && root.child('survey_states').child('survey_state_6').hasChild($pushId) && root.child('survey_states').child('survey_state_7').hasChild($pushId) && root.child('survey_states').child('survey_state_8').hasChild($pushId)" 
+      }
+    },
+    "survey_state_admin":{
+     "$pushId":{
+      ".read":"(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+      ".write":"auth != null && (auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com')) && !data.exists() && newData.exists()" 
+      }   
+    }
+   },
+    "amt_codes":{
+      ".read":"(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+       "$pushId":{
+      ".read":"(root.child('temp_uid_worker_id_map').child(auth.uid).val() == $pushId && !root.child('blacklist').val().contains($pushId))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+      ".write":"(auth != null && !data.exists() && newData.exists()&& root.child('consent_given').hasChild($pushId) && !root.child('blacklist').val().contains($pushId) && root.child('consent_given').child($pushId).val() == true && root.child('responses').child('old_impl_responses').hasChild($pushId) && root.child('responses').child('new_impl_responses').hasChild($pushId) && root.child('responses').child('question_responses').hasChild($pushId))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))"
+      }
+    },
+    "task_map":{
+     "$pushId":{
+     ".read":"(auth!=null)||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+     ".write":"(auth != null && !data.exists() && newData.exists() && !root.child('blacklist').val().contains($pushId))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))"
+     }
+   },
+   "instruction_map":{
+     "$pushId":{
+     ".read":"(auth!=null)||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+     ".write":"(auth != null && newData.exists() && !root.child('blacklist').val().contains($pushId))||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))"
+     }
+   },
+   "consent_given":{
+     "$pushId":{
+     ".read":"(auth!=null)||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))",
+     ".write":"(auth != null && !data.exists() && newData.exists() && newData.val() == false && !root.child('blacklist').val().contains($pushId))||(auth != null&& !root.child('blacklist').val().contains($pushId) && data.exists() && newData.exists() && data.val()==false && newData.val() == true)||(auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com'))"
+     }
+   },
+   "comments":{
+    ".read":"auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com')",
+    ".write":"auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com')"
+  },
+  "last_commented":{
+   ".read":"auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com')",
+   ".write":"auth.token.email.endsWith('@bob.com') ||auth.token.email.endsWith('@gmail.com')"
+ }
+  }
+ }
